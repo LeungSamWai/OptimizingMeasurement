@@ -51,3 +51,11 @@ python qiskit-vqe-variance_preserved.py --trial 1 --shots 240 --std_shots 24
 
 ## Citing this paper
 If you find this paper helps you in your research, please kindly cite:
+```
+@article{zhu2023optimizing,
+  title={Optimizing Shot Assignment in Variational Quantum Eigensolver Measurement},
+  author={Zhu, Linghua and Liang, Senwei and Yang, Chao and Li, Xiaosong},
+  journal={arXiv preprint arXiv:2307.06504},
+  year={2023}
+}
+```

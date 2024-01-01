@@ -33,20 +33,16 @@ There are three args:
 We first introduce two baseline strategies:
 #### Uniform assignment:
 ```commandline
-python qiskit-vqe-uniform_assignment.py --trial 1 --shots 240
-```
-#### Random assignment:
-```commandline
-python qiskit-vqe-random_assignment.py --trial 1 --shots 240
+python qiskit-vqe-uniform_assignment.py --trial 1 --shots 600
 ```
 ### Our strategies:
 #### Variance-Minimized Shot Assignment:
 ```commandline
-python qiskit-vqe-variance_minimized.py --trial 1 --shots 240 --std_shots 24
+python qiskit-vqe-variance_minimized.py --trial 1 --shots 600 --std_shots 50
 ```
 #### Variance-Preserved Shot Reduction:
 ```commandline
-python qiskit-vqe-variance_preserved.py --trial 1 --shots 240 --std_shots 24
+python qiskit-vqe-variance_preserved.py --trial 1 --shots 600 --std_shots 50
 ```
 
 ## Citing this paper
